@@ -8,7 +8,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import re
 import sqlite3
 import pandas as pd
-from email_notifier import send_email
 
 
 # 连接数据库（自动创建）
