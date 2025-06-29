@@ -39,7 +39,7 @@ EMAIL_CONFIG = {
 WORK_TIME_CONFIG = {
     'start_time': '06:00',  # 早上6点开始工作
     'end_time': '23:59',    # 晚上11:59结束工作（避免跨天问题）
-    'check_interval': {'min': 5, 'max': 8}  # 随机间隔1-2分钟
+    'check_interval': {'min': 1, 'max': 2}  # 随机间隔1-2分钟
 }
 
 # 反爬虫配置
